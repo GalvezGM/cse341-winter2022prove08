@@ -1,0 +1,34 @@
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Access-Control-Allow-Origin: *
+# Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+# Access-Control-Allow-Headers: Content-Type, Authorization
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 69568
+# ETag: W/"sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc="
+# Date: Sat, 27 Feb 2022 02:59:42 GMT
+# Connection: close
+
+# {
+#   "professionalName": "Geo Galvez",
+#   "base64Image": "...",
+#   "nameLink": {
+#     "firstName": "George's",
+#     "url": "https://github.com/GalvezGM"
+#   },
+#   "primaryDescription": " Code Depository and Work Experience",
+#   "workDescription1": "Tesla",
+#   "workDescription2": "Intel",
+#   "linkTitleText": "Profile Links",
+#   "linkedInLink": {
+#     "text": "LinkedIn",
+#     "link": "https://www.linkedin.com/in/george-galvez-474065203",
+#   },
+#   "githubLink": {
+#     "text": "Github",
+#     "link": "https://github.com/GalvezGM",
+#   }
+# }
+
+# GET http://localhost:8080/feed/posts
+GET http://localhost:8080/professional
